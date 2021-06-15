@@ -1,0 +1,60 @@
+{% sw_extends '@Storefront/storefront/page/product-detail/review/review-item.html.twig' %}
+
+{% block page_product_detail_review_item_info_date %}
+  
+  <div class="col-12 product-detail-review-item-date">
+     <p><small>
+      {% set mon = review.createdAt|date("F") %}
+      {% set date = review.createdAt|date("j, Y H:i") %}
+      
+      {% if mon == "January" %}
+        {{ "override-test.filter_name"|trans }} {{ date }}
+      {% endif %}
+
+      {% if mon == "February" %}
+        {{ "override-test.filter_name1"|trans }} {{ date }}
+      {% endif %}  
+
+      {% if mon == "March" %}
+        {{ "override-test.filter_name2"|trans }} {{ date }}
+      {% endif %} 
+        
+      {% if mon == "April" %}
+        {{ "override-test.filter_name3"|trans }} {{ date }}
+      {% endif %}  
+        
+      {% if mon == "May" %}
+        {{ "override-test.filter_name4"|trans }} {{ date }}
+      {% endif %}  
+        
+      {% if mon == "June" %}
+        {{ "override-test.filter_name5"|trans }} {{ date }}
+      {% endif %} 
+        
+      {% if mon == "July" %}
+        {{ "override-test.filter_name6"|trans }} {{ date }}
+      {% endif %} 
+        
+      {% if mon == "August" %}
+        {{ "override-test.filter_name7"|trans }} {{ date }}
+      {% endif %}
+        
+      {% if mon == "September" %}
+        {{ "override-test.filter_name8"|trans }} {{ date }}
+      {% endif %}  
+        
+      {% if mon == "October" %}
+        {{ "override-test.filter_name9"|trans }} {{ date }}
+      {% endif %}  
+        
+      {% if mon == "November" %}
+        {{ "override-test.filter_name10"|trans }} {{ date }}
+      {% endif %}  
+        
+      {% if mon == "December" %}
+        {{ "override-test.filter_name11"|trans }} {{ date }}
+      {% endif %}
+
+     </small></p>
+  </div>
+{% endblock %}

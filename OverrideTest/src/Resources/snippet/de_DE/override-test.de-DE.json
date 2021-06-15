@@ -1,0 +1,18 @@
+{
+	"override-test": {
+		"filter_name": "januari-",
+		"filter_name1": "februari",
+		"filter_name2": "maart",
+		"filter_name3": "april", 
+		"filter_name4": "mei", 
+		"filter_name5": "juni-", 
+		"filter_name6": "juli-", 
+		"filter_name7": "augustus", 
+		"filter_name8": "september", 
+		"filter_name9": "oktober", 
+		"filter_name10": "november", 
+		"filter_name11": "december" 
+
+		}
+
+}

@@ -1,0 +1,28 @@
+{
+    "name": "bay20/override-test",
+    "description": "Override Test",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derek",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "shopware-plugin-class": "Bay20\\OverrideTest\\OverrideTest",
+        "label": {
+            "de-DE": "Override Test",
+            "en-GB": "Override Test"
+        },
+        "description": {
+            "de-DE": "Override Test",
+            "en-GB": "Override Test"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bay20\\OverrideTest\\": "src/"
+        }
+    }
+}
